@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+</head>
+<body>
+    <form action="#" style="width:80%; margin:auto;">
+        <h1>Payment form</h1>
+        <p>Required filed *</p>
+    <h2>Contact Information</h2>
+    <p>Name: * <input type="text" name="name" required></p>
+    <p>Male <input type="Radio" name="gender" id="gender"> Female<input type="Radio" name="gender" id="gender"></p>
+    <p>Address:<textarea name="Address" id="Address" cols="80" rows="10"></textarea></p>
+    <p>Pincode: <input type="number" name="pincode"></p>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <p>Choose Course
+        <select name="course" id="course">
+            <option value="">Front end</option>
+            <option value="">Back end</option>
+            <option value="">Machine Learning</option>
+        </select>
+    </p>
+    <h4>Subject's:</h4>
+    <p>HTML : <input type="checkbox"></p>
+    <p>CSS : <input type="checkbox"></p>
+    <p>Java script : <input type="checkbox"></p>
+    <p>Front end : <input type="checkbox"></p>
+    <p> Back end : <input type="checkbox"></p>
+    <hr>
+    <h2>Payment Information</h2>
+    <p>Card Type: *
+        <select name="card-type" id="card-type" required>
+            <option value="">Select a card type</option>
+            <option value="Master">Master</option>
+            <option value="visa">Visa</option>
+            <option value="Rupapy">Rupay</option>
+        </select>
+    </p>
+    <p>
+        Card Number * <input type="number" name="number" required>
+    </p>
+    <p>
+        Expiration Date: <input type="date" name="date">
+    </p>
+    <p>
+        CVV <input type="password">
+    </p>
+    <input type="submit" value="Pay Now">
+    <p>Site review </p>
+        <label for="range">(Between 0 to 100)</label>
+    <input type="range" name="range" id="range" value="10" min="0" max="100">
+    </form>
+</body>
+</html>
